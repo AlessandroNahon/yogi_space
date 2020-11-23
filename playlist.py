@@ -1,7 +1,5 @@
 from googleapiclient.discovery import build
 
-# SCOPES = ["https://www.googleapis.com/auth/youtube"]
-
 
 def url_encoder(item):
     return 'https://www.youtube.com/watch?v=' + item[u'contentDetails'][u'videoId']
