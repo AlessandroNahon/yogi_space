@@ -1,5 +1,6 @@
 # Yogi Space
-Google Calendar integration to set up virtual yoga classes
+
+Set up random Yoga with Adreiene YouTube classes and send out a calendar invite for others to join!
 
 1. Run python invite.py
 2. Authenticate with Google services
