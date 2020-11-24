@@ -6,10 +6,12 @@ Set up random Yoga with Adreiene YouTube classes and send out a calendar invite 
 
 2. CD to project directory
 
-3. Run `python invite.py`
+3. Run `docker build -t calendar .`
 
-4. Authenticate with Google services
+4. Run `docker run calendar`
 
-5. Generate a calendar invite with a random yoga class
+5. Authenticate with Google services
 
-6. Do yoga and vibe out
+6. Let the app generate a calendar invite with a random yoga class
+
+7. Do yoga and vibe out
